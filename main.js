@@ -42,8 +42,8 @@ function addAccount() {
     accounts.push({ username, password });
     saveAccounts(accounts);
     displayAccounts();
-    document.getElementById('username').value = ''; // Clear Username Field After Adding
-    document.getElementById('password').value = ''; // Clear Password Field After Adding
+    document.getElementById('username').value = ''; // Clear username field after adding
+    document.getElementById('password').value = ''; // Clear password field after adding
 }
 
 // Generate a random password
@@ -76,8 +76,8 @@ function generatePassword() {
 
 function shuffleArray(array) {
     for (let i = array.length - 1; i > 0; i--) {
-        const j = Math.floor(Math.random() * (i + 1)); // random index from 0 to i
-        [array[i], array[j]] = [array[j], array[i]]; // swap elements
+        const j = Math.floor(Math.random() * (i + 1)); // Random index from 0 to i
+        [array[i], array[j]] = [array[j], array[i]]; // Swap elements
     }
     return array;
 }
