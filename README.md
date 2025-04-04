@@ -1,6 +1,6 @@
-Simple Password Manager (prototype)
+Simple Password Manager
 
-To be able to create/store accounts and passwords with a password indicator. The ability to download the accounts to local storage.
+To be able to create/store accounts and passwords with a password indicator. The ability to download the accounts to local storage. The ability to generate a true random password.
 
 Description:
 
@@ -24,11 +24,7 @@ Luke Bainbridge
 @lukebainbridge1994
 
 Version History
-0.2
-Various bug fixes and optimizations
+0.3 - Feature Additions and styling
+0.2 - Various bug fixes and optimizations
 See commit change or See release history
-0.1
-Initial Release
-
-Acknowledgments
-Inspiration, code snippets, etc.
+0.1 - Initial Release
